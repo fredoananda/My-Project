@@ -1,0 +1,21 @@
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle svg {
+    width: 24px;
+    height: 24px;
+    fill: #fefefe; /* Warna ikon saat mode terang */
+  }
+  
+  .dark-mode-toggle.dark-mode svg {
+    fill: #fff; /* Warna ikon saat mode gelap */
+  }
+  
